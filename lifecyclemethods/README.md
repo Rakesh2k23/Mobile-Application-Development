@@ -33,7 +33,7 @@ Developed by:RAKESH KUMAR.S
 Registeration Number :212221040137
 */
 ```
-##activity_main.xml :
+##ACTIVITY_MAIN.XML:
 <?xml version="1.0" encoding="utf-8"?>
 
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -76,7 +76,8 @@ Registeration Number :212221040137
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-##MainActivity.java :
+
+##MAINACTIVITY.JAVA:
 package com.example.androidlifecycle;
 
 import androidx.appcompat.app.AppCompatActivity;
