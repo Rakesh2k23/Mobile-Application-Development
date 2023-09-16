@@ -11,6 +11,7 @@ To create an application that uses GUI Components with Fonts and Colors using An
 Latest Version Android Studio
 
 ## ALGORITHM:
+```
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as HelloWorld and click Next.
@@ -24,19 +25,20 @@ Step 5: Design layout in activity_main.xml.
 Step 6: Display message give in MainActivity file.
 
 Step 7: Save and run the application.
-
-
+```
 ## PROGRAM:
 ```
 /*
 Program to print the text “GUIcomponent”.
-Developed by:
-Registeration Number :
+Developed by:Rakesh Kumar.s
+Registeration Number :212221040137
 */
 ```
+
+
 ## activity_main.xml:
-  
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+```
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
     xmlns:app="http://schemas.android.com/apk/res-auto"
 
@@ -86,29 +88,31 @@ Registeration Number :
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.325" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 
-  ## MainActivity.java:
+```
 
-    package com.example.guicomponent;
+## MainActivity.java:
+```
+package com.example.guicomponent;
 
-    import androidx.appcompat.app.AppCompatActivity;
-    
-    import android.os.Bundle;
-    
-    import androidx.appcompat.app.AppCompatActivity;
-    
-    import android.graphics.Color;
-    
-    import android.graphics.Typeface;
-    
-    import android.os.Bundle;
-    
-    import android.view.View;
-    
-    import android.widget.Button;
-    
-    import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.graphics.Color;
+
+import android.graphics.Typeface;
+
+import android.os.Bundle;
+
+import android.view.View;
+
+import android.widget.Button;
+
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -184,18 +188,19 @@ public class MainActivity extends AppCompatActivity {
         int randomIndex = (int) (Math.random() * fontStyles.length);
         Typeface selectedFont = fontStyles[randomIndex];
         textView.setTypeface(selectedFont);}
-    }
-    
-
-
-
-
+}
+```
 ## OUTPUT
+![image](https://github.com/Dhanush12022004/Mobile-Application-Development/assets/128135558/ffc9b8f3-a744-4002-8ba7-1cb9dfd07b40)
 
+![image](https://github.com/Dhanush12022004/Mobile-Application-Development/assets/128135558/206639ee-af70-4329-be43-28a50b2cd815)
 
+![image](https://github.com/Dhanush12022004/Mobile-Application-Development/assets/128135558/3051295c-5565-4fc6-ab6c-33789c62fa52)
+
+![image](https://github.com/Dhanush12022004/Mobile-Application-Development/assets/128135558/140d87e6-578d-4d5c-a36f-13d5e4c3480b)
+
+![image](https://github.com/Dhanush12022004/Mobile-Application-Development/assets/128135558/2dd48402-05a4-45a4-9a30-3c3e0ea211ff)
 
 
 ## RESULT
 Thus a Simple Android Application that uses GUI Components with Fonts and Colors using Android Studio is developed and executed successfully.
-
-
