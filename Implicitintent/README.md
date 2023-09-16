@@ -32,7 +32,7 @@ Program to print the text “Implicitintent”.
 Developed by:Rakesh Kumar S
 Registeration Number :212221040137
 */
-activity_main.xml :
+## activity_main.xml :
 
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -65,8 +65,7 @@ activity_main.xml :
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.218" />
-</android.support.constraint.ConstraintLayout> 
-```
+</android.support.constraint.ConstraintLayout>
 
 ## MainActivity.java :
 package com.example.intent;
@@ -94,6 +93,9 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+ 
+```
+
 
 
 ## OUTPUT
