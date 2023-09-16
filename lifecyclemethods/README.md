@@ -33,10 +33,11 @@ Developed by:RAKESH KUMAR.S
 Registeration Number :212221040137
 */
 ```
-##ACTIVITY_MAIN.XML:
-<?xml version="1.0" encoding="utf-8"?>
+## ACTIVITY_MAIN.XML:
 
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <?xml version="1.0" encoding="utf-8"?>
+                
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     
     xmlns:app="http://schemas.android.com/apk/res-auto"
     
@@ -75,27 +76,28 @@ Registeration Number :212221040137
         tools:layout_editor_absoluteY="312dp" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 
 
 
 
-##MAINACTIVITY.JAVA:
-package com.example.androidlifecycle;
+## MAINACTIVITY.JAVA:
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.annotation.SuppressLint;
-
-import android.os.Bundle;
-
-import android.widget.Toast;
-
-public class MainActivity extends AppCompatActivity
-
-{
+        package com.example.androidlifecycle;
+        
+        import androidx.appcompat.app.AppCompatActivity;
+        
+        import android.annotation.SuppressLint;
+        
+        import android.os.Bundle;
+        
+        import android.widget.Toast;
+        
+        public class MainActivity extends AppCompatActivity
+        
+        {
 
     @Override
     
