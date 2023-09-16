@@ -26,23 +26,23 @@ Step 6: Display message give in MainActivity file.
 Step 7: Save and run the application.
 
 ## PROGRAM:
-```
+
 /*
 Program to print the text “Implicitintent”.
 Developed by:Rakesh Kumar S
 Registeration Number :212221040137
 */
 
-activity_main.xml :
+## activity_main.xml :
 
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/purple_200"
-    tools:context=".MainActivity">
+        <?xml version="1.0" encoding="utf-8"?>
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple_200"
+            tools:context=".MainActivity">
 
     <Button
         android:id="@+id/button"
@@ -66,37 +66,37 @@ activity_main.xml :
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.218" />
-</android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
 
 
-MainActivity.java :
+## MainActivity.java :
 
-package com.example.intent;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.content.Intent;
-import android.net.Uri;
-import android.widget.Button;
-import android.widget.EditText;
-
-public class MainActivity extends AppCompatActivity {
-    Button button;
-    EditText editText;
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        button = findViewById(R.id.button);
-        editText = findViewById(R.id.editTextTextPersonName);
-        button.setOnClickListener(view -> {
-            String url=editText.getText().toString();
-            Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-            startActivity(intent);
+    package com.example.intent;
+    import android.support.v7.app.AppCompatActivity;
+    import android.os.Bundle;
+    import android.content.Intent;
+    import android.net.Uri;
+    import android.widget.Button;
+    import android.widget.EditText;
+    
+    public class MainActivity extends AppCompatActivity {
+        Button button;
+        EditText editText;
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
+            button = findViewById(R.id.button);
+            editText = findViewById(R.id.editTextTextPersonName);
+            button.setOnClickListener(view -> {
+                String url=editText.getText().toString();
+                Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(intent);    
         });
     }
-}
+    }
  
-```
+
 
 
 
