@@ -34,7 +34,7 @@ Registeration Number :212221040137
 */
 
 activity_main.xml :
-/*
+
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -67,10 +67,10 @@ activity_main.xml :
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.218" />
 </android.support.constraint.ConstraintLayout>
-*/
+
 
 MainActivity.java :
-/*
+
 package com.example.intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
     }
-}*/
+}
  
 ```
 
